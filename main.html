@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <title>Avengers vs JL</title>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS Link -->
     <link rel="stylesheet" type="text/css" href="project.css">
@@ -12,61 +14,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   </head>
   <body>    
-    
+
     <!--Comic Book-->
-    <div class="flex-container">
-      <div class="cover"></div>
-      <div class="page1">
-        
-        <div class="box" id="stats"></div>
-        <div class="box" id="stats">This is box 2 </div>
-        <div class="box" id="stats">This is box 3 </div>
-        <div class="box" id="stats">This is box 4 </div>
-        <div class="box" id="stats">This is box 5 </div>
-        <div class="box" id="stats">This is box 6 </div>
-        <div class="box" id="stats">This is box 7 </div>
-        <div class="box" id="stats">This is box 8 </div>
-        <div class="box" id="stats">This is box 9 </div>
-        
+      <div class="flex-container">
+        <div class="cover"></div>
+        <div class="page1">
+          
+          <div class="box" id="box1">This is box 1 </div>
+          <div class="box" id="box2">This is box 2 </div>
+          <div class="box" id="box3">This is box 3 </div>
+          <div class="box" id="box4">This is box 4 </div>
+          <div class="box" id="box5">This is box 5 </div>
+          <div class="box" id="box6">This is box 6 </div>
+          <div class="box" id="box7">This is box 7 </div>
+          <div class="box" id="box8">This is box 8 </div>
+          <div class="box" id="box9">This is box 9 </div>
 
+        </div>
       </div>
-
-      <br>
-      <br>
-      <div id = "stats"></div>
-    </div>
     
 
-    <!-- Optional JavaScript -->
+    <!--JL Book-->
+    <div class="flex-container1">
+        <div class="cover1"></div>
+          <div class="page2">
+          
+            <div class="dox1" id="sec1">This is box 1 </div>
+            <div class="dox1" id="sec2">This is box 2 </div>
+            <div class="dox1" id="sec3">This is box 3 </div>
+            <div class="dox1" id="sec4">This is box 4 </div>
+            <div class="dox1" id="sec5">This is box 5 </div>
+            <div class="dox1" id="sec6">This is box 6 </div>
+            <div class="dox1" id="sec7">This is box 7 </div>
+            <div class="dox1" id="sec8">This is box 8 </div>
+            <div class="dox1" id="sec9">This is box 9 </div>
+  
+        </div>
+      </div>
     
+
+  
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      
-    <script src = "SuperHero.js"></script>
-
-<script>
-$(document).ready(function() {
-  $('#stats').click(function() {
-    $.get('https://akabab.github.io/superhero-api/api/powerstats/.json', function(response) {
-      $('#stats').text(response);
-      
-    });
-  });
-});
-
-$(document).ready(function(){
-  $("stats").each(function (i){
-      if (stats.id <= "9" )
-  })
-})
-</script>
+    <!-- Optional JavaScript -->
+    <script src="project.js"></script>
   </body>
 </html>
 
