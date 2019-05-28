@@ -20,7 +20,7 @@ $(function() {
                                 '<b> Power: </b>' + stats.powerstats.power + '<br>' +
                                 '<b> Combat: </b>' + stats.powerstats.combat + '<br>'
                             )} 
-                         
+                          
                 
                     
                         
